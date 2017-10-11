@@ -1,0 +1,60 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-size: 14px;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background: url(../img/bg.jpg);
+}
+
+h3,
+h4 {
+	font-weight: normal;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: '';
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}

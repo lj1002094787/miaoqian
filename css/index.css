@@ -1,0 +1,54 @@
+@charset "utf-8";
+.banner {
+	position: relative;
+	height: 360px;
+}
+
+
+/*顶部轮播*/
+
+.banner-slide {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.banner-slide>a {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.banner-slide>a:first-child {
+	display: block;
+}
+
+
+/*轮播索引*/
+
+.banner-indexes {
+	position: absolute;
+	left: 0;
+	bottom: 20px;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+}
+
+.banner-indexes ul {
+	font-size: 0;
+}
+
+.banner-indexes li {
+	display: inline-block;
+	width: 17px;
+	height: 15px;
+	padding: 0 3px;
+	cursor: pointer;
+	background: url(../img/index/banner_indexes.png) no-repeat;
+}
+
+.banner-indexes li.active {
+	background: url(../img/index/banner_indexes_active.png) no-repeat;
+}
