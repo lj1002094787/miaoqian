@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+/*顶部信息部分*/
+
+.top-info {
+	padding-top: 20px;
+}
+
+
+/*顶部信息左*/
+
+.top-info-l {
+	width: 620px;
+	height: 300px;
+	background: url(../img/huoqi/current_topbg.jpg) no-repeat;
+}
+
+.top-info-wrap {
+	padding: 0 30px;
+}
+
+.top-info-wrap h2 {
+	padding-top: 35px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.top-info-data {
+	padding-top: 40px;
+	text-align: center;
+}
+
+.top-info-data li {
+	float: left;
+	border-left: 1px solid #f6a39e;
+	padding: 0 50px;
+}
+
+.top-info-data li:first-child {
+	border-left: none;
+}
+
+.data-title {
+	font-size: 16px;
+	color: #fff;
+}
+
+.data-num {
+	font-size: 20px;
+	color: #fff;
+	padding-top: 50px;
+	font-weight: bold;
+}
+
+.data-num b {
+	display: inline-block;
+	font-size: 70px;
+	color: #fff;
+	margin-top: -53px;
+}
+
+.data-bot {
+	padding-top: 58px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.data-bot span {
+	padding-left: 16px;
+	color: #fff;
+	background: url(../img/huoqi/ico_addition_w.png) no-repeat 0 5px;
+}
+
+
+/*顶部信息右*/
+
+.top-info-r {
+	width: 380px;
+	height: 300px;
+	background-color: #fff;
+}
+
+.top-info-join {
+	padding: 22px 50px;
+}
+
+.top-info-join p {
+	padding-top: 10px;
+	font-size: 14px;
+	color: #888;
+}
+
+.join-black {
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+}
+
+.join-red {
+	font-size: 18px;
+	color: #e8373d;
+	font-weight: bold;
+}
+
+.join-input {
+	border: 1px solid #e4e4e4;
+	padding: 15px;
+	border-radius: 6px;
+	font-size: 18px;
+	margin: 24px 0;
+}
+
+.join-input input {
+	outline: none;
+	border: none;
+	width: 92%;
+}
+
+.join-btn {
+	background-color: #e8373d;
+	border-radius: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.join-btn a {
+	color: #fff;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+}
+
+.join-tip {
+	padding-top: 4px;
+	text-align: center;
+}
+
+.join-tip span {
+	color: #999;
+}
+
+.join-tip a {
+	color: #3cb4ff;
+}
+
+
+/*tab选项卡*/
+
+.content-tab {
+	margin: 20px 0;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #e1e1e1;
+	height: 60px;
+	box-sizing: border-box;
+}
+
+.content-tab span {
+	float: left;
+	width: 200px;
+	height: 60px;
+	border-right: 1px solid #e1e1e1;
+	cursor: pointer;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 60px;
+}
+
+.content-tab span.active {
+	border-top: 2px solid #e8373d;
+	background-color: #fff;
+}

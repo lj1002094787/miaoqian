@@ -1,4 +1,9 @@
 @charset "utf-8";
+body {
+	background: url(../img/bg.jpg);
+}
+
+
 /*中间*/
 
 .mid-wrap {
@@ -108,5 +113,3 @@
 	height: 17px;
 	background: url(../img/ico_save.png) no-repeat;
 }
-
-
