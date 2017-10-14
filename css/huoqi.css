@@ -147,7 +147,7 @@
 /*tab选项卡*/
 
 .content-tab {
-	margin: 20px 0;
+	margin-top: 20px;
 	background-color: #f9f9f9;
 	border-bottom: 1px solid #e1e1e1;
 	height: 60px;
@@ -159,13 +159,186 @@
 	width: 200px;
 	height: 60px;
 	border-right: 1px solid #e1e1e1;
+	border-top: 2px solid #f9f9f9;
 	cursor: pointer;
 	box-sizing: border-box;
 	text-align: center;
 	line-height: 60px;
+	font-size: 18px;
 }
 
 .content-tab span.active {
 	border-top: 2px solid #e8373d;
 	background-color: #fff;
+	font-weight: bold;
+	color: #eb4f55;
+}
+
+
+/*tab选项卡内容部分*/
+
+.tab-con {
+	background-color: #fff;
+	margin-bottom: 60px;
+}
+
+.tab-con-items {
+	display: none;
+}
+
+.tab-con-items.active {
+	display: block;
+}
+
+
+/*tab1*/
+
+.item-wrap {
+	padding: 0 40px;
+}
+
+.item-title {
+	margin-top: 34px;
+	padding-left: 9px;
+	line-height: 16px;
+	font-size: 16px;
+	color: #333;
+	border-left: 4px solid #e8373d;
+}
+
+.item-row {
+	margin: 70px 60px;
+}
+
+.item-row>div.fl {
+	padding-left: 30px;
+}
+
+.item-row-text {
+	padding-top: 78px;
+}
+
+.item-row-text h5 {
+	font-size: 28px;
+	color: #333;
+	font-weight: normal;
+	line-height: 54px;
+}
+
+.item-row-text h5 span {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.item-row-text p {
+	font-size: 12px;
+	color: #999;
+}
+
+.item-row-img {
+	text-align: center;
+}
+
+.item-row2 {
+	margin: 90px 20px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.item-row2 h5 {
+	font-size: 18px;
+	color: #333;
+	line-height: 40px;
+}
+
+.item-row2 p {
+	width: 205px;
+	font-size: 12px;
+	line-height: 18px;
+	color: #999;
+}
+
+
+/*tab2*/
+
+.tab-table {
+	margin: 12px 12px 0 12px;
+}
+
+.tab-table table {
+	width: 100%;
+	max-width: 100%;
+}
+
+.tab-table thead th {
+	border-bottom: 1px solid #ececec;
+}
+
+.tab-table.tab2 thead tr th:first-child {
+	width: 70%;
+}
+
+.tab-table tbody tr td {
+	height: 50px;
+}
+
+.tab-table.tab2 tbody tr td:first-child {
+	text-align: left;
+	padding-left: 80px;
+}
+
+.tab-table tbody tr:nth-of-type(2n) {
+	background-color: #f9f9f9;
+}
+
+.tab-tip {
+	padding: 20px 30px;
+}
+
+.tab-tip p {
+	font-size: 14px;
+	color: #e8373d;
+	line-height: 30px;
+}
+
+.pl-70 {
+	padding-left: 70px;
+}
+
+.tab-page {
+	padding: 30px;
+	height: 34px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.tab-page li {
+	float: left;
+}
+
+.tab-page li a {
+	display: block;
+	padding: 5px 12px;
+	border: 1px solid #e1e1e1;
+	margin: 0 2px;
+}
+
+.tab-page li a:hover,
+.tab-page li a.active {
+	color: #e8373d;
+	border: 1px solid #e8373d;
+}
+
+.tab-page li i {
+	padding: 0 4px;
+	line-height: 33px;
+}
+
+.tab-page li span {
+	height: 33px;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+	line-height: 33px;
 }

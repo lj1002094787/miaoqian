@@ -1,0 +1,296 @@
+@charset "utf-8";
+.banner {
+	position: relative;
+	height: 360px;
+}
+
+
+/*内容部分content-wrap*/
+
+.content-wrap {
+	padding-top: 20px;
+	background-color: #f2f2f2;
+}
+
+
+/*wrap左*/
+
+.wrap-panel-l {
+	width: 680px;
+}
+
+.wrap-panel-l-main {
+	margin-bottom: 20px;
+}
+
+.wrap-panel-title h2 {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.wrap-panel-title a {
+	float: right;
+	color: #3cb4ff;
+	font-size: 14px;
+	line-height: 40px;
+}
+
+.wrap-panel-body {
+	position: relative;
+	width: 100%;
+	height: 200px;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #fff;
+	border-bottom: 1px dashed #d7d7d7;
+}
+
+.item-title {
+	padding-top: 15px;
+	height: 40px;
+	line-height: 24px;
+}
+
+.item-title h2 {
+	display: inline-block;
+	color: #333;
+	font-size: 16px;
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+.item-title span {
+	padding: 1px 8px;
+	margin-left: 10px;
+	font-size: 12px;
+	color: #3cb4ff;
+	border: 1px solid #3cb4ff;
+	border-radius: 20px;
+	vertical-align: middle;
+}
+
+.item-body {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.item-body li {
+	float: left;
+}
+
+.item-li-a {
+	width: 176px;
+}
+
+.item-li-b {
+	width: 104px;
+}
+
+.item-li-c {
+	width: 200px;
+}
+
+.item-li-d {
+	padding-left: 12px;
+	padding-top: 30px;
+}
+
+.item-li-title,
+.item-li-data {
+	font-size: 14px;
+	color: #888;
+}
+
+.item-li-data {
+	padding-top: 14px;
+	line-height: 30px;
+}
+
+.item-num {
+	font-size: 30px;
+	color: #666;
+	line-height: 40px;
+}
+
+.item-num-b {
+	font-size: 38px;
+	color: #e8373d;
+}
+
+.item-btn {
+	display: block;
+	text-align: center;
+	padding: 2px 12px;
+	color: #fff;
+	line-height: 40px;
+	width: 96px;
+	height: 40px;
+	background-color: #e8373d;
+	border-radius: 50px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.item-text {
+	display: block;
+	font-size: 16px;
+	color: #666;
+	padding-top: 10px;
+}
+
+
+/*wrap右*/
+
+.wrap-panel-r {
+	width: 300px;
+}
+
+.wrap-panel-main {
+	background-color: #fff;
+}
+
+.wrap-panel-r-main>a {
+	display: block;
+	font-size: 0;
+	margin-bottom: 10px;
+}
+
+
+/*秒钱新闻*/
+
+.mq-news {
+	padding: 20px 0;
+	margin: 0 20px 10px 20px;
+}
+
+.mq-news-img img {
+	width: 260px;
+	height: 140px;
+}
+
+.mq-dynamic-img {
+	position: relative;
+	width: 260px;
+	height: 173px;
+	overflow: hidden;
+}
+
+.mq-dynamic-img img {
+	width: 260px;
+	height: 173px;
+}
+
+.mq-dynamic-img ul {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 5000px;
+	transition: all .5s;
+}
+
+.mq-dynamic-img ul li {
+	float: left;
+}
+
+.mq-dynamic-img ol {
+	position: absolute;
+	width: 260px;
+	height: 20px;
+	background-color: rgba(24, 24, 24, .45);
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	font-size: 0;
+}
+
+.mq-dynamic-img ol li {
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	margin: 7px 4px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, .5);
+}
+
+.mq-dynamic-img ol li.active {
+	background-color: #fff;
+}
+
+.md-dynamic-title {
+	position: relative;
+	height: 40px;
+	overflow: hidden;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.md-dynamic-title ul {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 500px;
+	transition: all 0.5s;
+}
+
+.md-dynamic-title h2 {
+	width: 260px;
+	height: 40px;
+	overflow: hidden;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+	text-align: center;
+	line-height: 40px;
+}
+
+.mq-news-lis {
+	padding: 20px 0;
+	border-bottom: 1px dashed #d7d7d7;
+}
+
+.news-media {
+	color: #888;
+}
+
+.news-title a {
+	color: #666;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.news-text a {
+	color: #888;
+}
+
+.mq-dynamic-list {
+	overflow: hidden;
+}
+
+.mq-dynamic-list li {
+	position: relative;
+	padding: 8px 0 8px 18px;
+}
+
+.mq-dynamic-list li:before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 15px;
+	height: 15px;
+	background: url(../img/index/news_li.gif) no-repeat;
+}
+
+.mq-dynamic-list li a {
+	color: #515151;
+}
+
+.mq-dynamic-list li a:hover {
+	color: #e8373d;
+}
+
+.mq-dynamic-list li span {
+	float: right;
+}
