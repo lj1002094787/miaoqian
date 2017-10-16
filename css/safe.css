@@ -1,0 +1,39 @@
+@charset "utf-8";
+body {
+	background-color: #fff;
+}
+
+.top-banner-img {
+	font-size: 0;
+}
+
+.top-banner-img img {
+	width: 100%;
+}
+
+.content-row>div {
+	float: left;
+}
+
+.content-row>div:first-child {
+	width: 40%;
+}
+
+.content-row>div:last-child {
+	width: 60%;
+}
+
+.content-row {
+	padding: 90px 0;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.content-row-text p {
+	font-size: 16px;
+	line-height: 30px;
+	color: #666;
+}
+
+.row-text img {
+	padding-bottom: 20px;
+}

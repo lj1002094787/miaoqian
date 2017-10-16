@@ -17,10 +17,24 @@
 
 .wrap-panel-l {
 	width: 680px;
+	background-color: #fff;
 }
 
 .wrap-panel-l-main {
-	margin: 20px 0;
+	display: none;
+	margin-bottom: 20px;
+}
+
+.wrap-panel-l-main.active {
+	display: block;
+}
+
+.wrap-panel-tip {
+	font-size: 16px;
+	color: #e8373d;
+	margin: 26px 26px 0;
+	padding-left: 26px;
+	background: url(../img/zhuanrang/ico_clock.png) no-repeat;
 }
 
 .wrap-panel-title h2 {
@@ -39,15 +53,30 @@
 }
 
 .wrap-panel-head {
-	color: #eb4f55;
-	font-size: 20px;
-	font-weight: bold;
-	text-align: center;
-	height: 60px;
-	line-height: 60px;
-	box-sizing: border-box;
 	background-color: #fff;
+	text-align: center;
+}
+
+.wrap-panel-head li {
+	float: left;
+	height: 60px;
+	width: 340px;
+	box-sizing: border-box;
+	border-right: 1px solid #e1e1e1;
+}
+
+.wrap-panel-head li.active a {
+	color: #eb4f55;
+	font-weight: bold;
 	border-top: 2px solid #e8373d;
+	border-bottom: 1px solid #fff;
+}
+
+.wrap-panel-head li a {
+	display: block;
+	font-size: 20px;
+	line-height: 60px;
+	border-bottom: 1px solid #e1e1e1;
 }
 
 .wrap-panel-body {
@@ -112,6 +141,55 @@
 	height: 8px;
 	background-color: #ffc923;
 	border-radius: 10px;
+}
+
+.tab-page {
+	padding: 30px;
+	height: 34px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.tab-page ul {
+	display: inline-block;
+}
+
+.tab-page li {
+	float: left;
+}
+
+.tab-page li a {
+	display: block;
+	padding: 5px 10px;
+	border: 1px solid #e1e1e1;
+	margin: 0 2px;
+}
+
+.tab-page li a:hover,
+.tab-page li a.active {
+	color: #e8373d;
+	border: 1px solid #e8373d;
+}
+
+.tab-page li i {
+	padding: 0 4px;
+	line-height: 33px;
+}
+
+.tab-page li span {
+	height: 33px;
+	text-align: center;
+	padding: 5px;
+	line-height: 33px;
+}
+
+.pageInput {
+	text-align: center;
+	width: 24px;
+	margin: 0 2px;
+	padding: 8px;
+	border: 1px solid #e1e1e1;
+	outline: none;
 }
 
 .item-body li {
@@ -334,4 +412,96 @@
 
 .mq-dynamic-list li span {
 	float: right;
+}
+
+
+/*选择器*/
+
+.selector {
+	background-color: #fff;
+	padding: 20px;
+}
+
+.sl-key {
+	float: left;
+	width: 76px;
+	line-height: 38px;
+}
+
+.sl-key span {
+	font-weight: bold;
+}
+
+.sl-value li {
+	display: inline-block;
+	padding-right: 12px;
+}
+
+.sl-value li a {
+	line-height: 38px;
+}
+
+.sl-value a {
+	padding: 3px 12px;
+	color: #666;
+}
+
+.sl-value a:hover,
+.sl-value a.active {
+	border-radius: 50px;
+	color: #fff;
+	background-color: #e8373d;
+}
+
+.sl-value ul {
+	margin-left: 146px;
+}
+
+.sl-wrap:first-child .sl-value ul {
+	margin-left: 0;
+}
+
+.sl-value-all {
+	float: left;
+	width: 70px;
+	line-height: 38px;
+}
+
+
+/*排序*/
+
+.sort {
+	padding: 0 20px;
+	height: 38px;
+	line-height: 38px;
+	border-top: 1px solid #ffebeb;
+	border-bottom: 1px solid #ffebeb;
+	background-color: #fff4f4;
+	font-size: 0;
+}
+
+.sort span {
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+}
+
+.sort a {
+	padding-left: 30px;
+	padding-right: 20px;
+	color: #515151;
+	background: url(../img/zhuanrang/filter_ico_arrows.png) no-repeat 100% 0;
+}
+
+.sort a.default {
+	background: none;
+}
+
+.sort a.active {
+	background-position: 100% -44px;
+	color: #e8373d;
+}
+
+.sort a:hover {
+	color: #e8373d;
 }

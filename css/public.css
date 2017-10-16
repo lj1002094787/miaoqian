@@ -92,3 +92,81 @@ table>thead>tr>th {
 .nobold {
 	font-weight: normal !important;
 }
+
+.w420 {
+	width: 420px !important;
+}
+
+.w460 {
+	width: 460px !important;
+}
+
+.w550 {
+	width: 550px !important;
+}
+
+.w50p {
+	width: 50% !important;
+}
+
+.nopb {
+	padding-bottom: 0 !important;
+}
+.nomb{
+	margin-bottom: 0 !important;
+}
+.disb {
+	display: block;
+}
+
+
+/*分页*/
+
+.tab-page {
+	padding: 30px;
+	height: 34px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.tab-page ul {
+	display: inline-block;
+}
+
+.tab-page li {
+	float: left;
+}
+
+.tab-page li a {
+	display: block;
+	padding: 5px 10px;
+	border: 1px solid #e1e1e1;
+	margin: 0 2px;
+}
+
+.tab-page li a:hover,
+.tab-page li a.active {
+	color: #e8373d;
+	border: 1px solid #e8373d;
+}
+
+.tab-page li i {
+	padding: 0 4px;
+	line-height: 33px;
+}
+
+.tab-page li span {
+	height: 33px;
+	text-align: center;
+	padding: 5px;
+	line-height: 33px;
+}
+
+.pageInput {
+	text-align: center;
+	width: 24px;
+	margin: 0 2px;
+	padding: 8px;
+	border: 1px solid #e1e1e1;
+	outline: none;
+}

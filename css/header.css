@@ -57,6 +57,11 @@
 	transition: background-position .5s;
 }
 
+.header-logo {
+	height: 90px;
+	overflow: hidden;
+}
+
 
 /*我的资产*/
 
