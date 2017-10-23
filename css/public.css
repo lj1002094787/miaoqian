@@ -112,11 +112,28 @@ table>thead>tr>th {
 .nopb {
 	padding-bottom: 0 !important;
 }
-.nomb{
+
+.nomb {
 	margin-bottom: 0 !important;
 }
+
 .disb {
 	display: block;
+}
+
+.cl-blue {
+	color: #269eff;
+}
+
+.cl-blue2 {
+	color: #42a9d3;
+}
+
+.indent0 {
+	text-indent: 0 !important;
+}
+span.cl-blue2 {
+	font-size: 16px;
 }
 
 
